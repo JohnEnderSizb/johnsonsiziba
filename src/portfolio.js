@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Johnson A. Siziba",
   title: "Hi, I'm Johnson A. Siziba",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer experienced in all aspects of Web, Mobile and Desktop application development. I have worked with various programming languages, libraries and frameworks. I'm currently studying for a Business and Computer Science degree at University of Zimbabwe."),
   resumeLink: "www.google.com"
 };
 
@@ -29,11 +29,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "EXPERIENCED FULL STACK DEVELOPER SKILLED IN VARIOUS TECH STACKS",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
+    emoji("⚡ Development of highly interactive Front End / User Interfaces for your web, desktop and mobile applications"),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Integration of third party services such as Firebase/ AWS / Heroku/ Digital Ocean"),
+    emoji("⚡ Development of machine learning systems using Keras, TensorFlow, PyTorch"),
+    emoji("⚡ Enterprise Application Software development")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -72,6 +74,32 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
+
+     {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+     },
+
+    {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+
+     {
+      skillName: "iOS",
+      fontAwesomeClassname: "fab fa-apple"
+    },
+
+
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
@@ -102,15 +130,15 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      progressPercentage: "80%"  //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "100%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     }
   ]
 };
@@ -122,29 +150,29 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineering Intern",
+      company: "Agribank",
+      companylogo: require("./assets/images/AgribankLogo.png"),
+      date: "January 2020 – Present",
+      desc: "I was assigned to the E-Channels section of ICT department. Activities mainly included business systems development",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Systems development",
+        "Systems support services"
       ]
     },
     {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "ICT Support Intern",
+      company: "ZETDC",
+      companylogo: require("./assets/images/ZETDCLogo.png"),
+      date: "December 2018 – February 2019",
+      desc: "I was assigned to the IT department at ZETDC Nothern Region Head Office. Duties included network administration and IT support services"
     },
     {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "Adspaces",
+      companylogo: require("./assets/images/adspaces.png"),
+      date: "November 2019 – December 2019",
+      desc: "I handled Web and Mobile application development for the advertising company."
     },
   ]
 };
@@ -154,7 +182,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "JohnEnderSizb", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -185,13 +213,11 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "YUUY IHLH UGUY",
-      subtitle: "lorem j,bef waefkjnbwe wfk.jn.kwe qwk.dnqw qwdk.nqw wfk.nqw qwdk.n",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "UZ Research Week Exhibition 2019",
+      subtitle: "My project, a computer vision based mobile application that assists visually impaired people, was selected for showcasing at the UZ exhibition",
+      image: require("./assets/images/uz.png"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/" },
-        { name: "Certification", url: "https://drive.google.com/" },
-        { name: "Certification", url: "https://drive.google.com/" }
+        { name: "See More", url: "https://www.uz.ac.zw/index.php/about-the-research-week#:~:text=The%20UZ%20Research%20Week%202019,competitive%2C%20modern%20and%20industrialised%20Zimbabwe." }
       ]
     },
   ]
