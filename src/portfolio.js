@@ -166,12 +166,12 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/yokers.png"),
+      link: "http://www.yokers.systems"
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/luceat.png"),
+      link: "http://www.luceat.tech/"
     }
   ]
 };
@@ -185,31 +185,15 @@ const achievementSection = {
 
   achivementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      title: "YUUY IHLH UGUY",
+      subtitle: "lorem j,bef waefkjnbwe wfk.jn.kwe qwk.dnqw qwdk.nqw wfk.nqw qwdk.n",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+        { name: "Certification", url: "https://drive.google.com/" },
+        { name: "Certification", url: "https://drive.google.com/" },
+        { name: "Certification", url: "https://drive.google.com/" }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
   ]
 };
 
@@ -217,20 +201,26 @@ const achievementSection = {
 
 const blogSection = {
 
-  title: "Blogs",
-  subtitle: "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  title: "My Blog",
+  subtitle: "I'm passionate about technology and I love sharig my knowledge with others.",
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description: "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+      url: "http://sizibascode.herokuapp.com/pandas",
+      title: "Pandas Tutorial",
+      description: "Pandas is the most popular python library that is used for data analysis. It provides high-performance, easy-to use data structures and..."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description: "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "http://sizibascode.herokuapp.com/data_types",
+      title: "Data Types In Statistics",
+      description: "When working with statistics, it's important to recognize the different types of data. There are variations and techniques which..."
+    },
+    {
+      url: "http://sizibascode.herokuapp.com/mean_median_mode",
+      title: "Mean, Median and Mode",
+      description: "The mean is also called average. The mean  is equal to the sum of values divided by the number of values..."
     }
+
   ]
 };
 
@@ -238,14 +228,14 @@ const blogSection = {
 
 const talkSection = {
   title: "TALKS",
-  subtitle: emoji("I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"),
+  subtitle: emoji("I LOVE TO SHARE MY ... 😅"),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: "https://www.facebook.com/"
     }
   ]
 };
@@ -257,14 +247,14 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: ["https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"]
+  podcast: ["wwww.google.com"]
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Do you want to discuss a project with me or just say Hi? My Inbox is open for all.",
+  number: "+263-784310119",
+  email_address: "siziba.2099@gmail.com"
 };
 
 //Twitter Section
